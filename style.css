@@ -1,0 +1,259 @@
+*{
+    font-family: montserrat;
+
+}
+
+body{
+    background: f1fbff;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+   
+    z-index: 2;
+}
+
+.carousel-caption h1{
+    font-family: fantasy;
+    text-shadow: 10pt;
+    /* font-weight: 140px; */
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 120px;
+   
+}
+.carousel-caption p{
+    color: black;
+    font-size: 80%;
+    width: 60%;
+
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner ::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+ 
+.navbar-brand {
+    position:static;
+    color: #080707;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 0px;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover{
+    color: rgb(246, 0, 0);
+}
+
+@media only screen and (max-width :768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+
+    .carousel-caption p{
+        width: 100% ;
+    }
+}
+
+@media only screen and (max-width: 767px){
+     
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h1{
+    font-size: 17px;
+    
+    }
+
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+
+}
+
+
+.davi{
+    background-color: rgb(0, 0, 0);
+    margin-left: 5px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+
+}
+
+.cris{
+    
+    margin-left: 12px;
+    width: 600px;
+    color: rgb(249, 249, 249);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+    
+
+
+}
+
+.leo{
+    
+    
+    margin-left: 12px;
+    width: 600px;
+    color:rgb(238, 238, 238);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ney{
+    margin-left: 12px;
+    width: 600px;
+    color:rgb(241, 241, 241);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col1{
+    margin-bottom: 40px;
+}
+
+
+.col-12{
+    
+    font-weight: 600;
+    font-size: large;
+    margin-left: 24px;
+    background-color: black;
+    color: white;
+    width: 1248px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .clothes1{
+    height: 200px;
+}
+
+.col1x{
+    width: 20px;
+
+}
+
+.crx1{
+    text-align: center;
+} */
+
+.con{
+    color: white;
+    width: 4756px;
+}
+
+.cat11{
+    font-family: fantasy;
+}
+
+.cat12{
+    font-family: fantasy;
+}
+.cat13{
+    font-family: fantasy;
+}
+.cat14{
+    font-family: fantasy;
+}
+
+.cunt{
+    background-color: rgb(180, 166, 166);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-fluid {
+    margin-left: 600px;
+    height: 250px;
+    width: 320px;
+}
+
+.img-fluid2{
+
+    height: 100px;
+    width: 100px;
+
+}
+
+.col111Y{
+    
+    margin-left: 160px;
+}
+
+.corn{
+    margin-top: 100px;
+}
+
+#section{
+    background-color: bisque;
+}
+
+.pom{
+    background-color: grey;
+}
+.win{
+    background-color: black;
+    color: wheat;
+    width:100%;
+    margin-left: 10px;
+}
+
+
+footer {
+        background-color: #000; /* Black background */
+        height: 70px;
+        color: #ffb74d; /* Light orange text color */
+        text-align: center; /* Center the text */
+        padding: 10px 0; /* Add vertical padding for spacing */
+        font-size: 14px; /* Adjust text size as needed */
+        width: 100%; /* Make sure it spans full width */
+        position: relative; /* Relative position to prevent clipping */
+        bottom: 0; /* Sticks to the bottom */
+    
+}
